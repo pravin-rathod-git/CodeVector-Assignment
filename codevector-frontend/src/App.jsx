@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 const CATEGORIES = ['All', 'Electronics', 'Clothing', 'Books', 'Home', 'Beauty', 'Sports'];
 
+
 function App() {
   const [products, setProducts] = useState([]);
   const [cursor, setCursor] = useState(null);
